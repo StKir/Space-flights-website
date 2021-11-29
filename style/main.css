@@ -13,7 +13,6 @@
     box-sizing: border-box;
 }
 h1{
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
@@ -22,7 +21,6 @@ h1{
     margin: 0;
 }
 h2{
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -31,7 +29,6 @@ h2{
     margin: 0;
 }
 h3{
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -40,7 +37,6 @@ h3{
     margin: 0;
 }
 h4{
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -90,17 +86,18 @@ a{
     padding-left: 25px;
     list-style: url("../icons/LI_marker.png");
 }
+/* .header-section__left-nav-bar{
+    width: 537px;
+} */
 .header-section__left-nav-bar__img-paralacs{
     height: 151px;
-    width: 537px;
-    margin-left: -53px;
+    width: 737px;
+    /* left: 0; */
+    margin-left: -253px;
     background:url("../img/img1.png");
     background-size: 55%;
     background-attachment: fixed;
-}
-.header-section__left-nav-bar__bottom-side{
-    display: flex;
-    z-index: -2;
+    /* position: absolute; */
 }
 .header-section-wrp{
     display: flex;
@@ -124,7 +121,6 @@ a{
 }
 .location__place{
     width: 165px;
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -135,7 +131,6 @@ a{
     display: flex;
 }
 .phone__number{
-    font-family: Noto Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
