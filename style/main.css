@@ -1,0 +1,165 @@
+:root {
+    --color-dark: #171717;
+    --color-main: #6D11CA;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: noto-sans, sans-serif;
+};
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+h1{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+}
+h2{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+}
+h3{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+}
+h4{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.countainer{
+    width: 1337px;
+    margin: 0 auto;
+}
+body{
+    background: var(--color-dark);
+    color: white;
+    overflow-x: hidden;
+}
+section{
+    margin-bottom: 180px;
+}
+span{
+    display: block;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* НАЧАЛО КОДА */
+.logo{
+    margin: 47px 0 160px 83px;
+}
+.nav-group{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.38%;
+    list-style-type: none;
+    margin: 0 0 309px 76px;
+}
+.nav-group li{
+    margin-bottom: 25px;
+    transition: all 0.5s ease;
+}
+.nav-group li:last-child{
+    margin-bottom: 0px;
+}
+.nav-group li:hover{
+    padding-left: 25px;
+    list-style: url("../icons/LI_marker.png");
+}
+.header-section__left-nav-bar__img-paralacs{
+    height: 151px;
+    width: 537px;
+    margin-left: -53px;
+    background:url("../img/img1.png");
+    background-size: 55%;
+    background-attachment: fixed;
+}
+.header-section__left-nav-bar__bottom-side{
+    display: flex;
+    z-index: -2;
+}
+.header-section-wrp{
+    display: flex;
+}
+.right-side__backgrond{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.header-section__right-side__info-box{
+    margin: 47px 0 0 652px;
+}
+.location{
+    display: flex;
+    margin-bottom: 20px;
+}
+.location__icon{
+    width: 12px;
+    height: 15px;
+    margin-right: 10px;
+}
+.location__place{
+    width: 165px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+}
+.phone__num{
+    display: flex;
+}
+.phone__number{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin-left: 10px;
+    display: block;
+    text-decoration: none;
+}
+.header-section__right-side__main-offer{
+    width: 700px;
+    margin: 100px 0 0 -65px;
+}
+.social-media {
+    width: 443px;
+    height: 150px;
+    margin-top: 196px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.social-media a{
+    margin-right: 56px;
+}
+.social-media a:last-child{
+    margin-right: 0px;
+}
