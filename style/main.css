@@ -265,7 +265,6 @@ a{
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    transition: 0.5s ease all;
 }
 .accordion__header{
     display: flex;
@@ -274,13 +273,15 @@ a{
     align-items: center;
 }
 .accordion__text{
-    padding-bottom: 39px;
 }
 .marks__close{
     display: none;
 }
 .marks__open{
     display: block;
+}
+.accordion__item{
+    margin-bottom: 5px ;
 }
 .accordion__item.active .marks__close{
     display: block;
@@ -289,11 +290,19 @@ a{
     display: none;
 }
 .accordion__text{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    padding-bottom: 0px;
+
 }
 .accordion__item.active .accordion__text{
-    display: block;
+    max-height: 200px;
+    padding-bottom: 39px;
 }
+
+
+
 .question-block{
     margin-bottom: 180px;
 }
@@ -425,3 +434,13 @@ a{
 .our-question__checkbox{
     margin-top: 21px;
 }
+
+/* @media screen and (max-width:1000px){
+    .our-advantages__title{
+        font-size: 72px;
+    }
+
+    .sector-one__item-one .sector-one__title{
+        font-size: 36px;
+    }
+} */
