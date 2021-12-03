@@ -44,9 +44,27 @@ h4{
     color: #FFFFFF;
     margin: 0;
 }
+h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
 .countainer{
     width: 1337px;
     margin: 0 auto;
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 106.38%;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 body{
     background: var(--color-dark);
@@ -106,6 +124,7 @@ a{
     position: absolute;
     top: 0;
     z-index: -1;
+    
 }
 .header-section__right-side__info-box{
     margin: 47px 0 0 652px;
@@ -297,7 +316,85 @@ a{
 .question-block{
     margin-bottom: 180px;
 }
+.section-slider__offer--title{
+    width: 550px;
+    margin-bottom: 25px;
+}
+.section-slider__offer p{
+    width: 365px;
+}
+.dot{
+    width: 22px;
+    height: 22px;
+    border-radius: 61px;
+    margin-bottom: 10px;
+    background: #292929;
+    cursor: pointer;
+}
+.active_dot{
+    background: #6D11CA;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade{
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.section-slider__slider--img{
+    max-width: 640px;
+    max-width: 710px;
+    cursor: pointer;
+}
+.slider-list{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.slider-list--active{
+    display: block;
+}
+.section-slider-wrp{
+    display: flex;
+    justify-content: space-between;
+}
+.section-slider__dots{
+    margin-right: 25px;
+}
+.section-slider--slider{
+    display: flex;
+}
+.section-about-title{
+    width: 430px;
+    margin-top: 20px;
+}
+.list-row-text h5{
+    width: 340px;
+    margin-bottom: 20px;
+}
+.list-row-text p{
+    width: 430px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 138.38%;
+    /* or 19px */
 
+
+    color: #FFFFFF;
+}
+.list-row-text{
+    margin-bottom: 20px;
+}
+.section-about--wrp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 /* ////////////////////////////////////// */
 
