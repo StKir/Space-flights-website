@@ -394,7 +394,61 @@ a{
 .section-about--wrp{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
+.list-row{
+    width: 434px;
+}
+.list-row-img{
+    overflow:hidden;
+}
+.list-row-img img{
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+        
+.list-row-img img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.action-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, background-color 0.25s ease;
+}
+.img__list--about{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.img__list--about::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-main);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.img__list--about:hover::after {
+    opacity: 0.8;
+}
+  
+.img__list--about:hover .action-overlay{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ////////////////////////////////////// */
 
@@ -509,7 +563,7 @@ a{
 .checkbox__input:checked ~ .checkbox__fake:after{
     opacity: 1;
 }
-.our-question__form-button{
+.button_type-1{
     box-sizing: border-box;
     width: 431px;
     height: 54px;
@@ -518,6 +572,16 @@ a{
     margin-top: 18px;
     background-color: var(--color-dark);
     color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 106.38%;
+    transition: 0.5s ease;
+}
+.button_type-1:hover{
+    background-color: var(--color-main);
+    border: 1px solid var(--color-main);
+    color: rgb(255, 255, 255);
 }
 .our-question__checkbox{
     margin-top: 21px;
@@ -587,6 +651,17 @@ a{
     transition: 0.5s ease;
 
 }
+.pravka{
+    display: flex;
+}
+.pravka a{
+    margin-left: 8px;
+}
+.pravka img{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
 .button_type-2:hover{
     background: none;
     Box-shadow:0px 1px 0px rgb(255, 255, 255),0px -1px 0px rgb(255, 255, 255),1px 0px 0px rgb(255, 255, 255),-1px 0px 0px rgb(255, 255, 255);
@@ -616,10 +691,11 @@ a{
     width: 520px;
 }
 .medical-section__border-box__info-wrp{
-    padding: 36px;
+    padding: 30px;
 }
 .medical-section__border-box__info-wrp p{
     margin-top: 25px;
+    width: 811px;
 }
 .medical-section__wrp{
     display: flex;
@@ -627,19 +703,58 @@ a{
 .medical-section__border-box{
     border: 1px solid #FFFFFF;
     box-sizing: border-box; 
-    width: 887px;
     margin-right: 25px;
     height: auto;
 }
 .med-video{
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3;
-    padding-bottom: 25%;
-    position: relative;
-    
-}
-.medical-section__videp-item{
     max-width: 434px;
-    width: 100%;
+    max-height: 245px;
+}
+.med-from{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.checkbox__med-section{
+    width: 387px;
+}
+.medical-section__part2{
+    margin-top: 80px;
+}
+.medical-section__part2__form h5{
+    margin-bottom: 15px;
+}
+.medical-section__part2__form--intro{
+    font-style: normal;
+    width: 440px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.write__doctor{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 106.38%;
+    width: 435px;
+    margin-bottom: 25px;
+}
+.medical-section__part2__wrp{
+    display: flex;
+}
+.medical-section__part2{
+    display: flex;
+    justify-content: space-between;
+}
+.medical-section__part2__just-or{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: 35px;
+}
+.medical-section__part2__just-or h5{
+    position: absolute;
+    top: 50%;
+}
+.medical-section__part2__telegram{
+    margin-top: 165px;
 }

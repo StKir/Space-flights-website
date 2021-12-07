@@ -61,7 +61,7 @@
                             <p class="p__steps">
                                 Как уже неоднократно упомянуто, многие известные личности формируют глобальную экономическую сеть и при этом -  функционально разнесены на независимые элементы.
                             </p>
-                            <button class="button_type-2 step-btn">Подробнее</button>
+                            <button class="button_type-2 step-btn"><a href="#medical-section">Подробнее</a></button>
                             <div class="step__line">
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </section>
-        <section class="medical-section">
+        <section class="medical-section" id="medical-section">
             <div class="countainer">
                 <h2 class="medical-section__intro">Требования к здоровью</h2>
                 <div class="medical-section__wrp">
@@ -95,21 +95,43 @@
                                 внешнеэкономических политик. В своём стремлении улучшить пользовательский опыт мы упускаем, что непосредственные
                                 участники технического прогресса, инициированные исключительно синтетически, в равной степени предоставлены сами себе. И
                                 нет сомнений, что стремящиеся вытеснить традиционное производство, нанотехнологии лишь добавляют фракционных разногласий
-                                и призваны к ответу. <br><br>
-                                Есть над чем задуматься: сделанные на базе интернет-аналитики выводы лишь добавляют фракционных разногласий и призваны к
-                                ответу. Повседневная практика показывает, что убеждённость некоторых оппонентов однозначно фиксирует необходимость
-                                экспериментов, поражающих по своей масштабности и грандиозности. Но сделанные на базе интернет-аналитики выводы
-                                неоднозначны и будут объявлены нарушающими общечеловеческие нормы этики и морали.
+                                и призваны к ответу.
                             </p>
                         </div>
                     </div>
-                    <div class="medical-section__videp-item">
-                        <video class="med-video" preload loop autoplay controls poster="img/poster-video1.jpg">
+                    <div class="medical-section__video-item">
+                        <video class="med-video" autoplay muted preload="auto" loop poster="img/poster-video1.jpg">
                             <source type="video/mp4" src="video/pexels-artem-podrez-6824176.mp4">
                             <source type="video/webm" src="video/pexels-artem-podrez-6824176.webm">
                         </video>
-                        
                     </div>
+                </div>
+                <div class="medical-section__part2">
+                    <div class="medical-section__part2__wrp">
+                        <div class="medical-section__part2__form">
+                            <h5>Вы не уверены что подходите?</h5>
+                            <span class="medical-section__part2__form--intro">Получите бесплатную консультацию от наших специалистов</span>
+                            <form action="/" method="get" enctype="application/x-www-form-urlencoded" class="med-from">
+                                <input type="name" class="our-question__input" placeholder="Ваше ФИО">
+                                <input type="phone" class="our-question__input" placeholder="Ваш номер телефона">
+                                <input type="email" class="our-question__input" placeholder="Ваш email">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__input" checked>
+                                    <span class="checkbox__fake"></span>
+                                    <span class="checkbox__title checkbox__med-section">Отправляя данную форму вы даете согласие на обработку персональных данных</span>
+                                </label>
+                                <button type="submit" class="button_type-1" >Отправить</button>
+                            </form>
+                        </div>
+                        <div class="medical-section__part2__just-or">
+                            <h5>Или</h5>
+                        </div>
+                    </div>
+                        <div class="medical-section__part2__telegram">
+                            <span class="write__doctor">Напишите нам в телеграме, вам ответит дежурный врач наших курсов и даст подробную
+                                консультацию бесплатно</span>
+                            <button class="button_type-2 pravka">Telegram<a href="#"><img src="icons/tl.png" alt="tg"></a></button>
+                        </div>
                 </div>
             </div>
         </section>
