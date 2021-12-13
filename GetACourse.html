@@ -63,7 +63,7 @@
                         </div>
                         <div class="how-much">
                             <span class="info-about-courses__purple">Стоимость:</span>
-                            <span class="info-about-courses__white">150 000руб</span>
+                            <span class="info-about-courses__white">150 000 руб</span>
                         </div>
                         <div class="programm">
                             <span class="info-about-courses__purple">Программа:</span>
@@ -73,7 +73,46 @@
                  </div>
              </div>
         </div>
-     </section>
-    <script src="js/timer.js"></script>
+    </section>
+    <div class="registation__overlay">
+        <div class="registation__overlay__intro">
+            <div class="back"><img src="icons/arrow-reg.png" alt="назад"></div>
+            <h2>Регистрация</h2>
+        </div>
+        <span class="registration--move">
+            Заполните все поля для ввода
+        </span>
+        <form action="/" method="get" enctype="application/x-www-form-urlencoded" class="registr-form">
+            <div class="form-registr__section">
+                <input type="name" class="our-question__input" placeholder="Ваше ФИО">
+                <input type="phone" class="our-question__input" placeholder="Ваш номер телефона">
+                <input type="email" class="our-question__input" placeholder="Ваш email">
+                <input type="number" class="our-question__input" placeholder="Ваш возраст">
+                <div class="radio-btns">
+                    <span>Пол</span>
+                    <div class="radio-btns__inp-rad">
+                        <div class="radio-input-sex rad-male">
+                            <input type="radio" class="radio-sex" name="male" id="radio-male">
+                            <label class="sex-label" for="radio-male">Муж</label>
+                        </div>
+                        <div class="radio-input-sex rad-female">
+                            <input type="radio" class="radio-sex" name="male" id="radio-female">
+                            <label class="sex-label" for="radio-female">Жен</label>
+                        </div>
+                    </div>
+                </div>
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" checked>
+                    <span class="checkbox__fake"></span>
+                    <span class="checkbox__title checkbox__med-section">Отправляя данную форму вы даете согласие на обработку персональных данных</span>
+                </label>
+            </div>
+            <div class="form-regist__sumbit">
+                <h5>Добро пожаловать в команду!</h5>
+                <button type="submit" class="button_type-1 reg-form-btn" >Отправить</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/GetAcourse.js"></script>
 </body>
 </html>

@@ -1054,3 +1054,138 @@ a {
 .get-a-course-section{
   margin-bottom: 0;
 }
+.registr-form{
+  display: flex;
+}
+.form-registr__section{
+  width: 430px;
+}
+.radio-btns{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 106.38%;
+}
+.radio-btns__inp-rad{
+  display: flex;
+  margin: 10px 0 15px 0;
+}
+.radio-input-sex{
+  margin-right: 15px;
+}
+.radio-btns__inp-rad .radio-input-sex:last-child{
+  margin-right: 0px;
+}
+.radio-sex{
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.sex-label{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 106.38%;
+  width: 120px;
+  height: 54px;
+  padding-top: 18px;
+  display: block;
+  /* or 19px */
+  color: #979797;
+  cursor: pointer;
+}
+.radio-input-sex{
+  width: 120px;
+  height: 54px;
+  text-align: center;
+  background-color: white;
+  transition: 0.5s ease;
+}
+.radio-input-sex .sex-label:hover{
+  color: #000000;
+}
+.active-radio-btn{
+  background-color: var(--color-main);
+  box-shadow: 0px 1px 0px rgb(255, 255, 255), 0px -1px 0px rgb(255, 255, 255),
+    1px 0px 0px rgb(255, 255, 255), -1px 0px 0px rgb(255, 255, 255);
+}
+.registation__overlay__intro{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.back{
+  width: 70px;
+  height: 70px;
+  background: white;
+  padding: 25px 23px;
+  margin-right: 40px;
+  transition: 1s ease;
+}
+.back:hover{
+  background: #B784EB;
+}
+.registration--move{
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 106.38%;
+  width: 400px;
+  margin-bottom: 35px;
+}
+.registation__overlay{
+  display: none;
+  height: 100%;
+  width: 1000px;
+  position: absolute;
+  background: var(--color-main);
+  top: 0;
+  right: 0;
+  padding: 48px 0 0 79px;
+  animation-name: Open-overlay-anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.175, 0.185, 0.32, 1.275);
+}
+.registation__overlay--active{
+  display: block;
+}
+.form-regist__sumbit h5{
+  width: 244px;
+  text-align: center;
+}
+.form-regist__sumbit{
+  width: 244px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reg-form-btn{
+  width: 180px;
+  margin-top: 25px;
+  background-color: var(--color-main);
+}
+.reg-form-btn:hover{
+  background-color: #fff;
+  color: var(--color-main);
+}
+
+@keyframes Open-overlay-anim{
+  from{
+    right: -100%;
+  }
+  to{
+    right: 0;
+  }
+}
+.close-overlay-animation{
+  animation-name: Close-overlay-anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.175, 0.185, 0.32, 1.275);
+}
+@keyframes Close-overlay-anim{
+  0%{
+    right: 0;
+    display: block;
+  }
+  100%{
+    right: -100%;
+    display: none;
+  }
+}
