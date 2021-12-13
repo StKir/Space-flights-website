@@ -260,7 +260,7 @@ a {
   height: 100%;
 }
 
-/* ///////////////////////////////////// */
+/* ////////////////////// */
 .accordion li {
   list-style: none;
 }
@@ -378,8 +378,6 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 138.38%;
-  /* or 19px */
-
   color: #ffffff;
 }
 .list-row-text {
@@ -986,4 +984,8 @@ a {
 
 .facebook {
   grid-area: 2 / 1 / 3 / 2;
+}
+.Test-class{
+  /* тест 
+  тест */
 }
