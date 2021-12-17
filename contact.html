@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/jfi2kmb.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <section class = "aur-contacts">
+        <div class="countainer">
+            <div class="aur-contacts-wrap">
+                <div class="aur-contacts__nav">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+                    <nav class="nav-switchs">
+                            <ul class="nav-switchs__group">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="About.html">О курсе</a></li>
+                                <li><a href="GetACourse.html">Запись</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                    </nav>
+                </div>
+
+                <div class="aur-contacts__map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=
+                    constructor%3A760828f152789d56c1cbef34fd5db0cddc022b378099c53ab32ca812666b95bb&amp;width=
+                    437&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+
+                <div class="aur-contacts__right-pannel">
+                    <h5>Контакты</h5>
+                    <div class="right-pannel__adress">
+                        <p>Москва ул. Большая Печерская 12</p>
+                    </div>
+                        <div class="right-pannel__working-hours">
+                            <p>Пн - Пт 9:00 - 21:00 <br> Пт - Вск 12:00 - 18:00</p>
+                        </div>
+                    <div class="right-pannel__phone-num ">
+                        <a class="phone__icon" href="tel:+7(950) 603-77-37"><img src="icons/phone.png" alt="phone_icon"></a>
+                        <a class="right-pannel__phone-number" href="tel:+7(950) 603-77-37">+7 (950) 603 77 - 37 </a>
+                    </div>
+                    <div class="right-pannel__social-icons">
+                        <div class="icons-lable"><a href="#!"><img src="icons/vkontakte.png" alt="#!"></a></div>
+                        <div class="icons-lable"><a href="#!"><img src="icons/telegramm.png" alt="#!"></a></div>
+                        <div class="icons-lable"><a href="#!"><img src="icons/instagramm.png" alt="#!"></a></div>
+                        <div class="icons-lable"><a href="#!"><img src="icons/youtube.png" alt="#!"></a></div>
+                        <div class="icons-lable"><a href="#!"><img src="icons/facebook.png" alt="#!"></a></div>
+                                                
+                    </div>
+                            <div class="right-pannel__button">
+                                <button type="submit" class="button_type-1 contacts-button button">Заказать звонок</button>
+                                <p>* Звонок поступит в течении 1 часа</p>
+                            </div>
+                                            
+                </div>
+            </div>
+        </div>
+    </section> 
+
+     <div class="callback-overlay">
+        <div class="callback-overlay__content">
+            <div class="callback-overlay__header">
+            <div class="callback-overlay__header registation__overlay__intro">
+                <div class="callback-overlay__back back"><img src="icons/arrow-reg.png" alt="назад"></div>
+                <h2 class="callback-overlay__title">Заказать обратный звонок</h2>
+                
+            </div>
+
+            <form action="/" method="get" enctype="application/x-www-form-urlencoded" class="callback-overlay__form">
+
+                <input type="name" class="our-question__input" placeholder="Ваше ФИО">
+                                <input type="phone" class="our-question__input" placeholder="Ваш номер телефона">
+                                <input type="email" class="our-question__input" placeholder="Ваш email">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__input" checked>
+                                    <span class="checkbox__fake"></span>
+                                    <span class="checkbox__title checkbox__med-section">Отправляя данную форму вы даете согласие на обработку персональных данных</span>
+                                </label>
+                                <button type="submit" class="callback-overlay__button button_type-1" >Отправить</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="callback-overlay-2">
+        
+        <div class="callback-overlay-2__content">
+            <div class="callback-overlay-2__left">
+            <h3 class="callback-overlay-2__title">
+                Регистарция прошла успешно
+            </h3>
+            
+            <p class="callback-overlay-2__text">наш представитель позвонит вам в течении 1 часа</p>
+
+            <div class="callback-overlay-2__button ">
+                Назад
+            </div>
+        </div>
+        <div class="callback-overlay-2__right">
+            <img src="img/elon.png" alt="elon">
+        </div>
+
+        </div>
+        
+
+    </div>
+<script src="js/contact.js">
+
+</script>
+</body>
+</html>

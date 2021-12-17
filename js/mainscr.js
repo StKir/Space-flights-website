@@ -31,7 +31,7 @@ sliderWrp.addEventListener('click', nextSlide);
 dots.forEach((item, indexDot) => {
     item.addEventListener('click', ()=>{
         clearInterval(sliderInterval);
-        setInterval(nextSlide, 5000);
+        // setInterval(nextSlide, 5000);
         index = indexDot;
         console.log(indexDot);
         for(dot of dots){
