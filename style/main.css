@@ -1710,9 +1710,8 @@ margin-bottom: 9px;
 .aur-contacts__map{
   margin: 0 auto;
   margin-bottom: 27px;
-  
 }
-
+.aur-contacts__map script{}
 .aur-contacts-map__working-hours {
   padding-top: 9px;
   margin-bottom: 23px;
@@ -1768,7 +1767,9 @@ margin-bottom: 9px;
   grid-column: 0;
   width: 279px;
 }
-
+.map-mobile{
+  display: none;
+}
 /* Адаптив */
 @media screen and (max-width: 1337px){
   body{
@@ -1794,6 +1795,9 @@ margin-bottom: 9px;
   }
   h4{
     font-size: 36px;
+  }
+  h5{
+    font-size: 24px;
   }
   .header-section__left-nav-bar__img-paralacs{
     width: 530px;
@@ -1958,5 +1962,142 @@ margin-bottom: 9px;
   .action-overlay{
     width: 150px;
     height: auto;
+  }
+  .right-side__backgrond2{
+    right: -295px;
+  }
+  .how-to-courses__admission-steps{
+    margin: 0;
+  }
+  .how-to-courses__wrapper{
+    justify-content: space-between;
+  }
+  .medical-section__wrp{
+    display: block;
+  }
+  .medical-section__border-box{
+    width: 100%;
+  }
+  .medical-section__video-item{
+    margin-top: 55px;
+  }
+  .med-video{
+    max-width: 900px;
+    max-height: 550px;
+  }
+  .checkbox__med-section{
+    width: 240px;
+  }
+  .med-from .button_type-1{
+    width: 290px;
+  }
+  .medical-section__part2__form--intro{
+    width: 290px;
+  }
+  .medical-section__part2__form{
+    width: 368px;
+  }
+  .write__doctor{
+    width: 290px;
+  }
+  .teacher-section__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 106.38%;
+  }
+  .block-first__messange{
+    width: 290px;
+    height: 85px;
+  }
+  .block-second__messange{
+    width: 290px;
+    height: 140px;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+  }
+  .block-third__messange{
+    width: 290px;
+    height: 85px;
+    padding-left: 25px;
+  }
+  .teacher-blocks__block-second{
+    justify-content: space-between;
+  }
+  .block-first__messange p, .block-second__messange p, .block-third__messange p{
+    font-size: 18px;
+    z-index: 1;
+  }
+  .block-first__list-courses{
+    width: 290px;
+  }
+  .block-first__img{
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    margin-right: 0;
+  }
+  .block-second__section-info{
+    margin-right: 0;
+  }
+  .block-second__name{
+    font-size: 38px;
+  }
+  .block-second__img{
+    margin-right: 0;
+  }
+  .block-third__section-info{
+    margin-left: 0;
+  }
+  .first-module__wrap{
+    background-size: auto;
+  }
+  .last-module{
+    background-size: auto;
+  }
+  .email{
+    margin-left: 0;
+  }
+  .first-module__tittle h4{
+    margin-top: 0;
+  }
+  .timer-intro{
+    width: 270px;
+  }
+  .timer-box{
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+  }
+  .timer-box span{
+    font-size: 36px;
+  }
+  .header-section__information{
+    margin-top: 120px;
+  }
+  .line{
+    margin-top: 90px;
+  }
+  .get-a-course-adaptation{
+    margin: 0 0 0 40px;
+  }
+  .form-registr__section input{
+    width: 430px;
+  }
+  .form-regist__sumbit h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 106.38%;
+  }
+  .map-desc{
+    display: none;
+  }
+  .map-mobile{
+    display: block;
+  }
+  .callback-overlay__form input{
+    width: 431px;
   }
 }
