@@ -113,7 +113,7 @@ a {
   /* left: 0; */
   margin-left: -253px;
   background: url("../img/img1.png");
-  background-size: 45%;
+  background-size: 55%;
   background-attachment: fixed;
   /* position: absolute; */
 }
@@ -1045,7 +1045,6 @@ a {
 
 .partners-section__wrap {
   display: flex;
-  width: 1333px;
   height: 390px;
   justify-content: space-between;
 }
@@ -1768,4 +1767,196 @@ margin-bottom: 9px;
   grid-gap: 0;
   grid-column: 0;
   width: 279px;
+}
+
+/* Адаптив */
+@media screen and (max-width: 1337px){
+  body{
+    overflow-x: hidden;
+  }
+  section{
+    margin-bottom: 110px;
+  }
+  .countainer{
+    width: 900px;
+  }
+  .logo{
+    margin: 47px 0 160px 0;
+  }
+  h1{
+    font-size: 72px;
+  }
+  h2{
+    font-size: 42px;
+  }
+  h3{
+    font-size: 36px;
+  }
+  h4{
+    font-size: 36px;
+  }
+  .header-section__left-nav-bar__img-paralacs{
+    width: 530px;
+    height: 120px;
+  }
+  .header-section__right-side__info-box{
+    margin: 47px 0 0 440px;
+  }
+  .right-side__backgrond{
+    height: 740px;
+  }
+  .nav-group{
+    margin-bottom: 185px;
+  }
+  .social-media{
+    display: block;
+    margin-left: 70px;
+  }
+  .section-slider__offer--title{
+    width: 366px;
+  }
+  .section-slider__offer p{
+    margin-right: 0;
+    width: 366px;
+  }
+  .section-slider__slider--img div{
+    width: 474px;
+    height: 530px;
+  }
+  .list-row{
+    width: 287px;
+  }
+  .list-row-img img{
+    width: 100%;
+    height: auto;
+  }
+  .section-about-title{
+    width: auto;
+  }
+  .list-row-text p{
+    width: auto;
+  }
+  .vostok img{
+    height: 585px;
+  }
+  .our-advantages__title{
+    font-size: 75px;
+    margin-bottom: 65px;
+  }
+  .sector-one__item-five{
+    width: 595px;
+    height: auto;
+  }
+  .sector-one__right img{
+    width: 100%;
+    height: auto;
+  }
+  .sector-one__item-three{
+    width: 290px;
+  }
+  .sector-one__item-three img{
+    width: 100%;
+    height: auto;
+  }
+  .sector-one__item-one h3 p{
+    width: 290px;
+  }
+  .sector-one__title{
+    font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 106.38%;
+  }
+  .sector-one__item-one{
+    width: 290px;
+  }
+  .sector-one__left{
+    grid-gap: 20px;
+    height: 444px;
+  }
+  /* .sector-img img{
+    width: 290px;
+  } */
+  .sector-one__item-two{
+    width: 290px;
+  }
+  .sector-one__item-two img{
+    width: 100%;
+    height: auto;
+  }
+  .sector-one__item-four{
+    width: auto;
+  }
+  .sector-two__item-six{
+    width: 290px;
+    height: 95px;
+  }
+  .sector-two__item-eight{
+    width: 290px;
+    height: 95px;
+  }
+  .sector-two__item-seven{
+    width: 290px;
+  }
+  /* .sector-two div {
+    width: 290px;
+    height: 95px;
+  } */
+  .sector-two__item-seven{
+    height: 150px;
+  }
+  /* .sector-img img{
+    width: 290px;
+  } */
+  .our-question__form-left h3{
+    width: 285px;
+  }
+  .our-question__title{
+    font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 80%;
+  }
+  .our-question__input, .our-question__form-textarea, .our-question__form-right, .our-question__form-right button {
+    width: 285px;
+  }
+  .iphone-lower, .iphone-average, .iphone-upper{
+    width: 193px;
+    height: 388px;
+  }
+  .iphone-background{
+    width: 535px;
+    height: 204px;
+    margin-top: 150px;
+  }
+  .iphone-lower{
+    margin-left: 159px;
+  }
+  .iphone-average{
+    margin-left: 276px;
+  }
+  .iphone-upper{
+    margin-left: 352px;
+  }
+  .social-network__right-side__text h5{
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .social-network__right-side__text{
+    width: 285px;
+  }
+  .map{
+    width: 100%;
+    height: auto;
+  }
+  .aur-location__adress, .working-hours, .margin_plus{
+    margin-left: 0px;
+  }
+  .footer-section__privacy-polise{
+    width: 280px;
+  }
+  .action-overlay{
+    width: 150px;
+    height: auto;
+  }
 }
