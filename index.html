@@ -13,9 +13,42 @@
     <main>
     <section class="header-section">
        <div class="countainer">
+        <div class="mobile-menu">
+            <img src="img/logo.svg" alt="logo" class="logo-mobile">
+            <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <div class="burger-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="About.html">О курсе</a></li>
+                    <li><a href="GetACourse.html">Запись</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                  </ul>
+            </div>
+        </div>
             <div class="header-section-wrp">
                 <div class="header-section__left-nav-bar">
-                    <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo"></a>
                     <nav class="nav-menu">
                             <ul class="nav-group">
                                 <li><a href="index.html">Главная</a></li>
@@ -44,7 +77,16 @@
                         <a class="tg" href="#"><img src="icons/tl.png" alt=""></a>
                         <a class="inst" href="#"><img src="icons/inst.png" alt=""></a>
                     </div>
+                    <div class="location location-mobile">
+                        <img class="location__icon" src="icons/location.png" alt="location_marker">
+                        <span class="location__place">Москва <br> ул. Большая Печерская 12</span>
+                    </div>
+                    <div class="phone__num phone__num-mobile">
+                        <a class="phone__icon" href="tel:+7(950) 603-77-37"><img src="icons/phone.png" alt="phone_icon"></a>
+                        <a class="phone__number" href="tel:+7(950) 603-77-37">+7 (950) 603 77 - 37 </a>
+                    </div>
                     <img class="right-side__backgrond" src="img/back.png" alt="bacgound">
+                    <img class="right-side__backgrond-mobile" src="img/background-mobile.png" alt="">
                 </div>
             </div>
        </div>

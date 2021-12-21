@@ -12,6 +12,9 @@
 *::before {
   box-sizing: border-box;
 }
+.right-side__backgrond-mobile{
+  display: none;
+}
 h1 {
   font-style: normal;
   font-weight: bold;
@@ -84,6 +87,8 @@ a {
 }
 /* НАЧАЛО КОДА */
 .logo {
+  display: block;
+  box-sizing: border-box;
   margin: 47px 0 160px 83px;
 }
 .nav-group {
@@ -1534,6 +1539,9 @@ margin-left: 28.5px;
   background-color: #fff;
   color: var(--color-main);
 }
+.map-tablet{
+  display: none;
+}
 
 @keyframes Open-overlay-anim{
   from{
@@ -1768,6 +1776,15 @@ margin-bottom: 9px;
   width: 279px;
 }
 .map-mobile{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+.phone__num-mobile{
+  display: none;
+}
+.location-mobile{
   display: none;
 }
 /* Адаптив */
@@ -2100,4 +2117,623 @@ margin-bottom: 9px;
   .callback-overlay__form input{
     width: 431px;
   }
+  .get-a-course-header{
+    margin-top: 5%;
+  }
+  .aur-contacts__map{
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 900px){
+  h1{
+    font-size: 48px;
+  }
+  h2{
+    font-size: 36px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 24px;
+  }
+  h5{
+    font-size: 24px;
+  }
+  .countainer{
+    width: 668px;
+  }
+  .header-section__right-side__info-box{
+    margin:47px 0 0 200px;
+  }
+  .nav-group{
+    margin-bottom: 100px;
+  }
+  .logo{
+    margin-bottom: 120px;
+  }
+  .header-section__right-side__main-offer{
+    width: 359px;
+    margin: 88px 0 143px -56px;
+  }
+  .right-side__backgrond{
+    height: 595px;
+  }
+  .social-media{
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 250px;
+    height: 45PX;
+  }
+  .header-section__left-nav-bar__img-paralacs{
+    height: 98px;
+  }
+  .section-slider__offer p{
+    font-size: 14px;
+  }
+  .section-slider__dots{
+    margin-right: 7px;
+  }
+  .section-slider__offer--title{
+    width: 341px;
+    margin-bottom: 20px;
+  }
+  .dot{
+    width: 12px;
+    height: 12px;
+  }
+  .section-slider__slider--img div{
+    width: 262px;
+    height: 292px;
+  }
+  .list-row{
+    width: 207px;
+    height: 450px;
+  }
+  .list-row-text p{
+    font-size: 12px;
+  }
+  .vostok img{
+    height: 450px;
+
+  }
+  .list-row-text h5{
+    width: 200px;
+    margin-bottom: 5px;
+  }
+  .our-advantages__title{
+    font-size: 56px;
+    margin-bottom: 40px;
+  }
+  .sector-one__left div{
+    width: 209px;
+    height: max-content;
+  }
+  .sector-one__item-five{
+    width: 435px;
+    height: 360px;
+  }
+  .sector-one__left{
+    grid-gap: 15px;
+    height: 360px;
+  }
+  /* .sector-one__left :last-child{
+    grid-gap: 0;
+  } */
+  .sector-one__title{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .sector-text {
+    font-size: 12px;
+  }
+  .sector-one__item-two{
+    height: auto;
+  }
+  .sector-one__right img{
+    width: 100%;
+    height: auto;
+  }
+  .sector-one__right{
+    height: max-content;
+  }
+  .our-advantages__sector-one{
+    margin-bottom: 15px;
+  }
+  .sector-one__right img{
+    width: 110%;
+    height: auto;
+  }
+  .sector-two__item-seven .sector-two__title{
+    margin-bottom: 5px;
+  }
+  .our-advantages__sector-two div{
+    width: 209px;
+    height: auto;
+  }
+  .question-block__title{
+    margin-bottom: 35px;
+  }
+  .our-question__subtitle{
+    margin-bottom: 55px;
+    font-size: 18px;
+    font-style: normal;
+  }
+  .our-question__form div{
+    width: 209px;
+  }
+  .our-question__form-left h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    width: 209px;
+  }
+  .our-question__input, .our-question__form-textarea, .our-question__form-right, .our-question__form-right button {
+    width: 209px;
+  }
+  .banner-icons{
+    width: 110px;
+    height: 44px;
+  }
+  .banner-icons img{
+    width: 110px;
+    height: 44px;
+  }
+  .partners-section__banner{
+    grid-gap: 5px;
+  }
+  .partners-section__wrap{
+    height: auto;
+  }
+  .partners-section__offer{
+    padding-top: 20px;
+  }
+  .iphone-lower, .iphone-average, .iphone-upper{
+    width: 153px;
+    height: 309px;
+  }
+  .iphone-background{
+    width: 406px;
+    height: 162px;
+    margin-top: 122px;
+  }
+  .iphone-lower{
+    margin-left: 115px;
+  }
+  .iphone-average{
+    margin-left: 205px;
+  }
+  .iphone-upper{
+    margin-left: 266px;
+  }
+  .social-network__right-side__text{
+    width: 209px;
+  }
+  .social-network__right-side__text h5{
+    font-size: 18px;
+  }
+  .social-network__right-side__text p{
+    font-size: 14px;
+    width: 100%;
+  }
+  .social-network__right-side{
+    width: 209px;
+  }
+  .social-network__icons{
+    grid-template-columns: repeat(2, 93px);
+  }
+  .map{
+    height: 720px;
+  }
+  .footer-section__left-side, .footer-section__privacy-polise, .footer-section__contacts{
+    width: 209px;
+  }
+  .footer-section__nav-social{
+    width: 209px;
+  }
+  .timer-intro{
+    width: 210px;
+    margin-bottom: 20px;
+  }
+  .timer-boxes{
+    grid-gap: 7px;
+  }
+  .timer-box{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    
+  }
+  .timer-box span{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .header-section__timer__registr{
+    width: 100%;
+    margin-top: 45px;
+  }
+  .header-section__timer{
+    margin-left: 0;
+  }
+  .info-about-courses__purple, .info-about-courses__white{
+    font-size: 18px;
+  }
+  .get-a-course-adaptation{
+    margin-left: 20px;
+  }
+  .header-section__information{
+    margin-left: 20px;
+    width: 162px;
+  }
+  .registation__overlay{
+    width: 100%;
+    padding: 10px;
+  }
+  .form-registr__section input{
+    width: 350px;
+  }
+  .registr-form{
+    width: 668px;
+   margin: 0 auto;
+  }
+  .registation__overlay__intro{
+    width: 668px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .registration--move{
+    width: 668px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .aur-contacts__map{
+    display: none;
+  }
+  .map-tablet{
+    display: block;
+  }
+  .callback-overlay__title{
+    width: 340px;
+  }
+  .callback-overlay{
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 600px){
+  section{
+    margin-bottom: 90px;
+  }
+  .question-block{
+    margin-bottom: 90px;
+  }
+  .countainer{
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+  .header-section__left-nav-bar{
+    display: none;
+  }
+  .mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 30px;
+  }
+  .logo{
+    margin: 0;
+    padding: 0;
+  }
+  .logo-mobile{
+    width: 220px;
+    height: 60px;
+  }
+  .right-side__backgrond{
+    left: -100px;
+  }
+  .header-section{
+  }
+  .right-side__backgrond{
+    display: none;
+  }
+  .social-media{
+    margin-left: 0;
+    margin-top: 0px;
+    width: 100%;
+    height: 45PX;
+    margin: 0 auto;
+  }
+  .right-side__backgrond-mobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    width: 100%;
+    height: auto;
+  }
+  .header-section__right-side__info-box{
+    display: none;
+  }
+  .header-section__right-side__main-offer{
+    margin: 300px 0px 30px 0;
+  }
+  .phone__num-mobile{
+    display: flex;
+  }
+  .location-mobile{
+    display: flex;
+  }
+  .social-media{
+    margin-bottom: 30px;
+  }
+  .location__place{
+    width: 300px;
+  }
+  #menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+.burger-nav span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: var(--color-main);
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.burger-nav span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.burger-nav span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ .burger-nav span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+  background: white;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ .burger-nav span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ .burger-nav span:nth-last-child(2)
+{
+  opacity: 1;
+  background: white;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 320px;
+  height: 600px;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -100px;
+  
+  background: var(--color-main);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+  opacity: 1;
+}
+.burger-nav{
+  width: 70px;
+  height: 70px;
+  background: white;
+  padding: 25px 18px;
+  z-index: 3;
+}
+.burger-nav span{
+  color: var(--color-main);
+}
+.section-slider__offer p{
+  width: 100%;
+  font-size: 18px;
+}
+.section-slider-wrp{
+  display: block;
+}
+.section-slider--slider{
+  display: block;
+}
+.section-slider__dots{
+ display: none;
+}
+.section-slider__slider--img{
+  margin-top: 50px;
+}
+.section-slider__slider--img div{
+  width: 100%;
+  height: auto;
+}
+.section-about--wrp{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+h5{
+  font-size: 36px;
+}
+.list-row-text p{
+  font-size: 14px;
+}
+.section-about-title{
+  font-size: 36px;
+}
+.list-row{
+  width: 100%;
+  height: auto;
+}
+.our-advantages__title{
+  margin-bottom: 40px;
+  font-size: 36px;
+  text-align: left;
+  line-height: 106.38%;
+}
+.sector{
+  display: block;
+}
+.sector-one__left div{
+  width: 100%;
+}
+.sector-text{
+  font-size: 14px;
+}
+.sector-one__item-five{
+  width: 100%;
+  height: auto;
+}
+.our-advantages__sector-two div{
+  width: 100%;
+  height: auto;
+}
+.sector-two__item-seven{
+  margin: 20px 0 20px 0;
+}
+.accordion__header{
+  display: block;
+}
+.accordion__item.active .accordion__text{
+  max-height: 500px;
+}
+.marks__open, .marks__close{
+  margin-top: 20px;
+}
+.our-question__title{
+  font-size: 36px;
+  width: 100%;
+}
+.our-question__form{
+  display: block;
+}
+.our-question__form div{
+  width: 100%;
+}
+.our-question__input, .our-question__form-textarea, .our-question__form-right, .our-question__form-right button{
+  width: 100%;
+}
+.our-question__subtitle{
+  margin-bottom: 30px;
+}
+.our-question__form-left h3{
+  margin-bottom: 10px;
+}
+.our-question__form-center{
+  margin-top: 20px;
+}
+.partners-section__wrap{
+  display: block;
+}
+.banner-icons, .banner-icons img{
+  width: 88px;
+  height: 36px;
+}
+.partners-section__banner{
+  width: 90%;
+  margin: 0 auto;
+}
+.social-network__devices{
+  display: none;
+}
+.social-network__right-side__text h5{
+  font-size: 24px;
+  width: 100%;
+}
+.social-network__right-side__text{
+  width: max-content;
+  font-size: 18px;
+}
+.social-network__icons{
+  grid-template-columns: repeat(3, 93px);
+  
+}
+.footer{
+  display: none;
+}
 }
