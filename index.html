@@ -16,37 +16,27 @@
         <div class="mobile-menu">
             <img src="img/logo.svg" alt="logo" class="logo-mobile">
             <div id="menuToggle">
-                  <!--
-                  A fake / hidden checkbox is used as click reciever,
-                  so you can use the :checked selector on it.
-                  -->
-                  <input type="checkbox" />
-                  
-                  <!--
-                  Some spans to act as a hamburger.
-                  
-                  They are acting like a real hamburger,
-                  not that McDonalds stuff.
-                  -->
                   <div class="burger-nav">
                     <span></span>
                     <span></span>
                     <span></span>
                   </div>
-                  
-                  <!--
-                  Too bad the menu has to be inside of the button
-                  but hey, it's pure CSS magic.
-                  -->
-                  <ul id="menu">
+            </div>
+            <div class="menu-overlay">
+                <div class="burger-nav-close">
+                    <div class="close-burger">
+                        <img src="icons/arrow-menu.png" alt="">
+                    </div>
+                </div>
+                <ul id="menu">
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="About.html">О курсе</a></li>
                     <li><a href="GetACourse.html">Запись</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                   </ul>
-            </div>
+              </div>
         </div>
-            <div class="header-section-wrp">
+        <div class="header-section-wrp">
                 <div class="header-section__left-nav-bar">
                     <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo"></a>
                     <nav class="nav-menu">
@@ -88,7 +78,7 @@
                     <img class="right-side__backgrond" src="img/back.png" alt="bacgound">
                     <img class="right-side__backgrond-mobile" src="img/background-mobile.png" alt="">
                 </div>
-            </div>
+        </div>
        </div>
     </section>
     <section class="section-slider">
@@ -602,6 +592,23 @@
             </div>
         </div>
     </div>
+    <div class="mask">
+        <div class="loader">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-abs">
+            <defs>
+              <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+              </filter>
+            </defs>
+        </svg>
+    </div>
+    <script src="js/preloader.js"></script>
     <script src="js/mainscr.js"></script>
 </body>
 </html> 

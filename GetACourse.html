@@ -12,6 +12,29 @@
 <body>
     <section class="header-section get-a-course-section">
         <div class="countainer">
+            <div class="mobile-menu">
+                <img src="img/logo.svg" alt="logo" class="logo-mobile">
+                <div id="menuToggle">
+                      <div class="burger-nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                </div>
+                <div class="menu-overlay">
+                    <div class="burger-nav-close">
+                        <div class="close-burger">
+                            <img src="icons/arrow-menu.png" alt="">
+                        </div>
+                    </div>
+                    <ul id="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="About.html">О курсе</a></li>
+                        <li><a href="GetACourse.html">Запись</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                      </ul>
+                  </div>
+            </div>
              <div class="header-section-wrp get-a-course-header">
                  <div class="header-section__left-nav-bar">
                      <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
@@ -50,6 +73,7 @@
                          Зарегистрироваться
                      </div>
                  </div>
+                 <div class="line-mobile"></div>
                  <div class="header-section__information">
                      <div class="line"></div>
                      <div class="info-about-courses get-a-course-adaptation">
@@ -113,6 +137,23 @@
             </div>
         </form>
     </div>
+    <div class="mask">
+        <div class="loader">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-abs">
+            <defs>
+              <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+              </filter>
+            </defs>
+        </svg>
+    </div>
+    <script src="js/preloader.js"></script>
     <script src="js/GetAcourse.js"></script>
 </body>
 </html>

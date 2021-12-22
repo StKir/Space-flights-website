@@ -12,15 +12,38 @@
 <body>
     <section class = "aur-contacts">
         <div class="countainer">
+            <div class="mobile-menu">
+                <img src="img/logo.svg" alt="logo" class="logo-mobile">
+                <div id="menuToggle">
+                      <div class="burger-nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                </div>
+                <div class="menu-overlay">
+                    <div class="burger-nav-close">
+                        <div class="close-burger">
+                            <img src="icons/arrow-menu.png" alt="">
+                        </div>
+                    </div>
+                    <ul id="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="About.html">О курсе</a></li>
+                        <li><a href="GetACourse.html">Запись</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                      </ul>
+                  </div>
+            </div>
             <div class="aur-contacts-wrap">
-                <div class="aur-contacts__nav">
-                    <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
-                    <nav class="nav-switchs">
-                            <ul class="nav-switchs__group">
+                <div class="header-section__left-nav-bar">
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo"></a>
+                    <nav class="nav-menu">
+                            <ul class="nav-group">
                                 <li><a href="index.html">Главная</a></li>
                                 <li><a href="About.html">О курсе</a></li>
                                 <li><a href="GetACourse.html">Запись</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
                             </ul>
                     </nav>
                 </div>
@@ -62,12 +85,15 @@
                 </div>
             </div>
             <div class="map-tablet">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae6ec583ef7d256bf8279e1f49900ef9263cc17084d7447ae77e1d48221272a2f&amp;width=668&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script class="mobile-map-tablet" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae6ec583ef7d256bf8279e1f49900ef9263cc17084d7447ae77e1d48221272a2f&amp;width=668&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <div class="map true-map-mobile">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A760828f152789d56c1cbef34fd5db0cddc022b378099c53ab32ca812666b95bb&amp;&amp;&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>
     </section> 
-
-     <div class="callback-overlay">
+    
+    <div class="callback-overlay">
         <div class="callback-overlay__content">
             <div class="callback-overlay__header">
             <div class="callback-overlay__header registation__overlay__intro">
@@ -114,7 +140,24 @@
         
 
     </div>
-<script src="js/contact.js">
+    <div class="mask">
+        <div class="loader">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-abs">
+            <defs>
+              <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+              </filter>
+            </defs>
+        </svg>
+    </div>
+    <script src="js/preloader.js"></script>
+    <script src="js/contact.js">
 
 </script>
 </body>
