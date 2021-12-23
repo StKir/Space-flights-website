@@ -2854,6 +2854,209 @@ margin-bottom: 9px;
     width: 70%;
     height: auto;
   }
+  /* о курсе начало */
+  .teacher-section {
+    display: none;
+  }
+  .teacher-section__mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.block-first__flex, .block-second__flex, .block-third__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-to-courses_wrp_main-info h2 {
+  font-size: 36px;
+}
+.how-to-courses__wrapper {
+  display: block;
+}
+.how-to-courses_wrp_main-info {
+  margin-bottom: 47px;
+}
+.how-to-courses__admission-steps h5 {
+  font-size: 36px;
+}
+.how-to-courses-section {
+  margin-bottom: 47px;
+}
+.medical-section__intro {
+  margin-bottom: 27px;
+  width: 100%;
+}
+.medical-section__part2 {
+  margin-top: 62px;
+}
+.medical-section__video-item {
+  margin-top: 27px;
+}
+.checkbox__med-section {
+  font-size: 12px;
+}
+.medical-section__part2__form--intro {
+  font-size: 18px;
+}
+.med-from .button_type-1 {
+  width: 100%;
+  margin-bottom: 47px;
+  }
+.medical-section__part2__just-or h5 {
+  font-size: 36px;
+}
+.medical-section__part2__wrp {
+  flex-flow: column;
+}
+.medical-section__part2 {
+  flex-flow: column;
+}
+.medical-section__part2__telegram {
+  margin-top: 75px;
+}
+
+.write__doctor {
+  width: 100%;
+  line-height: 106.4%;
+ }
+ .medical-section__part2__just-or{
+   margin-left: 0;
+
+ }
+ 
+.block-teacher{
+  display: block;
+  margin-top: 20px;
+ }
+ .teacher-section__title {
+   font-size: 36px;
+ }
+ .teacher-name {
+   font-size: 20px;
+   line-height: 106.4%;
+   margin-bottom: 15px;
+   width: 150px;
+ }
+ .teacher-education {
+   font-size: 18px;
+   line-height: 106.4%;
+   width: auto;
+   }
+   .block-first__about-teacher{
+     width: 100%;
+   }
+   .block-second__about-teacher{
+     width: auto;
+   }
+ .block-first__title-courses, .block-second__title-courses, .block-third__title-courses {
+   font-size: 24px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+ }
+ .block-second__section-info{
+   margin-top: 0;
+   width: 100%;
+ }
+ .training-time {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+ .block-first__img {
+   height: 250px;
+  }
+ .block-first__img img {
+   margin-left: -30px;
+   height: 100%;
+   width: auto;
+ }
+ .block-second__img {
+   height: 250px;
+
+ }
+ .block-second__img img {
+   height: 100%;
+   width: auto;
+ }
+ 
+ .block-third__img {
+   height: 250px;
+ }
+ .block-third__img img {
+   height: 100%;
+   width: auto;
+ }
+ .block-third__education {
+   width: auto;
+ }
+
+
+
+
+
+
+ .first-module__tittle{
+   display: block;
+ }
+ .module-grid {
+   display: block;
+ }
+ .footer {
+   display: none;
+ }
+ .first-module__tittle {
+   font-size: 36px;
+   
+ }
+ 
+ .first-module__tittle h4 {
+   margin-bottom: 27px;
+   margin-top: 31px;
+ }
+ .first-module__training h5 {
+   margin: 20 0 20 0;
+ }
+ 
+ .first-module__training p {
+   margin: 0 0 20 0;
+ }
+
+ .first-module__wrap {
+  margin-top: -50px;
+  background: url(../img/bacgr-modul-1.png) no-repeat;
+  background-size: 100%;
+}
+.medical-section__part2__form{
+  width: 100%;
+}
+.med-from input{
+  width: 100%;
+}
+.pravka{
+  width: 100%;
+  align-items: center;
+  place-content: center;
+}
+.first-module__wrap{
+  background: var(--color-main);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.module-grid div{
+  margin-bottom: 50px;
+}
+.last-module{
+  background: var(--color-main);
+  padding-top: 50px;
+}
+.section-slider__offer--title{
+  width: 100%;
+}
+  /* о курсе конец */
   .right-side__backgrond{
     left: -100px;
   }
