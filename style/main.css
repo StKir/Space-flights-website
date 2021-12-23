@@ -338,9 +338,28 @@ a {
 .active_dot {
   background: #6d11ca;
 }
+.slider-scroll-anim{
+  animation-name: slider-scroll-anim;
+  animation-duration: 1.5s;
+}
+@keyframes slider-scroll-anim{
+  from {
+    background: var(--color-main);
+    transform: rotate(5deg);
+    opacity: 0.5;
+  }
+  to{
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
 .fade {
   animation-name: fade;
   animation-duration: 2s;
+}
+.slider-list img{
+  width: 100%;
+  height: auto;
 }
 @keyframes fade {
   from {
@@ -2035,6 +2054,10 @@ margin-bottom: 9px;
     width: 530px;
     height: 120px;
   }
+  .img__list--about:hover .action-overlay{
+    width: 35%;
+    height: auto;
+  }
   .header-section__right-side__info-box{
     margin: 47px 0 0 440px;
   }
@@ -2896,6 +2919,7 @@ h5{
 .partners-section__banner{
   width: 90%;
   margin: 0 auto;
+  grid-template-columns: repeat(7, 1fr);
 }
 .social-network__devices{
   display: none;
@@ -2961,7 +2985,7 @@ h5{
   width: 100%;
 }
 .right-pannel__social-icons{
-  grid-template-columns: repeat(4, 93px);
+  grid-template-columns: repeat(3, 93px);
 }
 .contacts-button{
   width: 100%;
@@ -2975,6 +2999,7 @@ h5{
 }
 .registation__overlay{
   z-index: 6;
+  height: 150%;
 }
 .registration--move{
   width: 100%;
@@ -2998,5 +3023,32 @@ h5{
 }
 .timer-boxes{
   width: 300px;
+}
+.callback-overlay{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+}
+.callback-overlay__content{
+  width: 100%;
+  right: 0;
+}
+.registation__overlay__intro{
+  width: 100%;
+  margin-left: 20px;
+}
+.callback-overlay__form input, .callback-overlay__button{
+  width: 100%;
+}
+.callback-overlay__form{
+  width: 90%;
+  margin: 0 auto;
+}
+.callback-overlay__title{
+  width: 30%;
+}
+.callback-overlay-2{
+  display: none;
 }
 }

@@ -6,9 +6,9 @@ const sliderImgs = document.querySelectorAll('.slider-list'),
       let index = 0;
 const activeSlide = (n) =>{
     for(slide of sliderImgs){
-        slide.classList.remove('slider-list--active', 'fade', 'list-row-img' )
+        slide.classList.remove('slider-list--active', 'slider-scroll-anim', 'list-row-img' )
     }
-    sliderImgs[n].classList.add('slider-list--active', 'fade', 'list-row-img');
+    sliderImgs[n].classList.add('slider-list--active', 'slider-scroll-anim', 'list-row-img');
 }   
 const activeDots = (n) =>{
     for(dot of dots){
