@@ -2020,6 +2020,9 @@ margin-bottom: 9px;
 .teacher-section__mobile {
   display: none;
 }
+.right-side__backgrond-tablet-about{
+  display: none;
+}
 /* Адаптив */
 @media screen and (max-width: 1337px){
   body{
@@ -2381,7 +2384,7 @@ margin-bottom: 9px;
   .right-side__backgrond2{
     display: none;
   }
-  .right-side__backgrond-tablet{
+  .right-side__backgrond-tablet-about{
     display: block;
     position: absolute;
     top: 0;
@@ -3232,5 +3235,11 @@ h5{
 }
 .callback-overlay-2{
   display: none;
+}
+.right-side__backgrond-tablet{
+  display: none;
+}
+.right-side__backgrond-tablet-about{
+  display: block;
 }
 }
