@@ -109,6 +109,9 @@ a {
   padding-left: 25px;
   list-style: url("../icons/LI_marker.png");
 }
+.right-side__backgrond-tablet{
+  display: none;
+}
 /* .header-section__left-nav-bar{
     width: 537px;
 } */
@@ -1509,9 +1512,6 @@ margin-left: 28.5px;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-}
-.right-side__backgrond-tablet{
-  display: none;
 }
 .back{
   width: 70px;
