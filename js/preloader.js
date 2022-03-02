@@ -3,7 +3,7 @@ window.addEventListener('load', ()=>{
     console.log('hide');
     mask.classList.add('hide-preloader');
     mask.remove();
-})
+});
 
 //burger-menu
 

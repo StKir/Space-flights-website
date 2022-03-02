@@ -1,5 +1,5 @@
 //Timer
-const deadLine = '2022-01-28';
+const deadLine = '2022-03-08';
 
 function getTimeRemaning(endtime){
     let t = Date.parse(endtime) - Date.parse(new Date()),

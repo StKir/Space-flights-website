@@ -42,3 +42,4 @@ dots.forEach((item, indexDot) => {
     })
 })
 let sliderInterval = setInterval(nextSlide, 2500);
+
