@@ -1,6 +1,9 @@
 //Timer
-const deadLine = '2022-03-08';
-
+const today = new Date();
+let dd = String(today.getDate()).padStart(2, '0');
+let mm = String(today.getMonth() + (today.getMonth() === 11 ? (1) : (2))).padStart(2, '0'); 
+let yyyy = today.getFullYear();
+let deadLine = yyyy + '-'+ mm + '-' + dd;
 function getTimeRemaning(endtime){
     let t = Date.parse(endtime) - Date.parse(new Date()),
         days = Math.floor(t / (1000 * 60 * 60 * 24)),
